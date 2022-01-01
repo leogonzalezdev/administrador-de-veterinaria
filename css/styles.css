@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:wght@700;900&family=Ubuntu:wght@400;700&display=swap');html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-image: radial-gradient(circle at 21.09% 29.76%, #7fe0b9 0, #6cd8b4 50%, #56d0af 100%);  min-height: 100%;
+  padding-bottom: 5rem;
+}
+.titulo {
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 5px 5px 5px solid black;
+  font-size: 3rem;
+  color: white;
+}
+.container {
+    background-color: white;
+}
+header {
+  margin-top: 3rem;
+}
+header h1 {
+  color: white;
+}
+.lista-citas .cita {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  
+}
+.lista-citas .cita:last-of-type {
+  border-bottom: 0;
+}
+
+.lista-citas .cita p {
+  margin:0;
+}
+.lista-citas .cita button {
+  margin-top: 1rem!important;
+}
+.lista-citas .cita span {
+  font-weight: bold;
+}
+textarea {
+    height: 200px!important;
+}
+svg {
+  width: 21px;
+}
+@media (max-width:984px) {
+  .titulo{
+    font-size: 2.3rem;
+  }
+}
+@media (max-width:770px) {
+  .titulo{
+    font-size: 2rem;
+  }
+}
+@media (max-width:530px) {
+  .titulo{
+    font-size: 1.7rem;
+  }
+}
