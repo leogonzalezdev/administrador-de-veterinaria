@@ -1,4 +1,4 @@
-import {datosCita, nuevaCita } from '../funciones.js';
+import {crearDB, datosCita, nuevaCita } from '../funciones.js';
 import {
   mascotaInput, 
   propietarioInput,
@@ -23,6 +23,6 @@ export default class App{
     sintomasInput.addEventListener('input', datosCita);
     mascotaInput.addEventListener('input', datosCita);
     formulario.addEventListener('submit', nuevaCita);
-
+    crearDB();
   }
 }
